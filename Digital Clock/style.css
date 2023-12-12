@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.main .hero{
+    width: 80vmin;
+    height: 20vmin;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+}
+.hero span{
+    font-size: 18vmin;
+    margin: 0 0 0 50px;
+    background-color: black;
+    color: white;
+}
+#hour{
+    background-color: #333333;
+    border-radius: 20px;
+    color: #0000FF;
+    padding: 10px;
+}
+#hour::after{
+    content: "Hr";
+    font-size: 2vmin;
+    margin: 10px;
+    color: #FF0000;
+}
+#minutes{
+    background-color: #333333;
+    border-radius: 20px;
+    padding: 10px;
+    color: #FF0000;
+}
+#minutes::after{
+    content: "Min";
+    font-size: 2vmin;
+    margin: 10px;
+    color: #ffff;
+}
+#seconds{
+    background-color: #333333;
+    border-radius: 20px;
+    padding: 10px;
+}
+#seconds::after{
+    content: "Sec";
+    font-size: 2vmin;
+    color: #0000FF;
+}
